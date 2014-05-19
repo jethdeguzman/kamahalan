@@ -1,0 +1,128 @@
+body{
+	background-image:url('../denim/denim.png');
+
+}
+
+hr{
+	border: 1px dashed white;
+}
+
+.brd{
+
+	border:1px solid white;
+}
+
+#body{
+	margin-top:10px;
+}
+
+#body-tab .row{
+	margin-bottom: 15px;
+	color:white;
+
+}
+.tab-container{
+	height:70px;
+	padding-right: 30px;
+
+}
+
+.tab-icon{
+	width:35px;
+	height:35px;
+	margin-top: 10px;
+}
+.tab-container:hover{
+	cursor:pointer;
+}
+
+#body-content{
+	margin-top: -10px;
+	background-image:url('../binding_light/binding_light.png');
+	min-height:550px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+#settings-container{
+	background-image:url('../binding_dark/binding_dark.png');
+	display:none; 
+	padding:10px;
+	border-bottom: 2px solid #16295E;
+	-moz-box-shadow: 1px 7px 11px #000000;
+-webkit-box-shadow: 1px 7px 11px #000000;
+box-shadow: 1px 7px 11px #000000;
+}
+#settings-tab div{
+	height:310px;
+	border-right:1px solid white; 
+	text-align: right;
+}
+#settings-tab {
+	padding-top: 20px
+
+}
+#settings-tab ul li{
+	padding:5px;
+}
+#settings-tab p{
+
+	font-size: 24px;
+	margin-bottom: -10px;
+	color:white;
+}
+#settings-tab hr{
+	border:1px solid white;
+	margin-right:-10px;
+	margin-left: 80px;
+}
+#settings-tab ul li p{
+	font-size: 18px;
+}
+#settings-tab div a{
+	text-decoration: none;
+	color:white;
+}
+#settings-body{
+	margin-top: 10px;
+}
+#user a{
+    color:#0088cc;
+}
+#user #user-tab{
+    margin-left: 0px;
+}
+#user #user-form {
+    color:white;
+
+}
+#holiday a{
+    color:#0088cc;
+}
+#holiday #holiday-tab{
+    margin-left: 0px;
+}
+#holiday #holiday-form {
+    color:white;
+
+}
+#user-form-success{
+    display:none;
+}
+#attend{
+		
+}
+
+.mouseoverbg{
+	background-image:url('../binding_light/binding_light.png');
+	border-radius: 5px 0 0 5px;
+	color:black;
+}
+.mouseoutbg{
+	background-image:url('../binding_dark/denim_denim.png');
+	color:white;
+}
+
+	.module-title{
+			text-indent: 30px;
+		
+	}

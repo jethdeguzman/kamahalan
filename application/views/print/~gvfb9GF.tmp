@@ -1,0 +1,164 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//Dtd HTML 3.2//EN">
+
+<HTML>
+<HEAD>
+	<link href="printForm.css" rel="stylesheet" type="text/css" />
+	
+	<STYLE>
+		<!-- 
+		BODY,DIV,TABLE,THEAD,TBODY,TFOOT,tr,TH,td,P { font-family:"Nimbus Sans L"; font-size:x-small }
+		 -->
+	</STYLE>
+	
+</HEAD>
+
+<BODY TEXT="#000000">
+<TABLE CELLSPACING="0" COLS="9" BORDER="0">
+	<colgroup WIDTH="11"></colgroup>
+	<colgroup WIDTH="114"></colgroup>
+	<colgroup WIDTH="77"></colgroup>
+	<colgroup WIDTH="96"></colgroup>
+	<colgroup WIDTH="98"></colgroup>
+	<colgroup WIDTH="104"></colgroup>
+	<colgroup WIDTH="88"></colgroup>
+	<colgroup WIDTH="74"></colgroup>
+	<colgroup WIDTH="10"></colgroup>
+	<tr>
+		<td height="76" align="left"><div class="font"></td>
+		<td colspan=7 align="center" valign="middle"><div class="fontleave"><BR><IMG SRC="logo.jpg" WIDTH=598 height=67 HSPACE=30 VSPACE=4>
+		</div></td>
+		<td align="left"><div class="font"></td>
+	</tr>
+	<tr>
+		<td height="20" align="left"><div class="font"></td>
+		<td colspan=7 align="center" valign="middle"><B><div class="fontleave">LEAVE FORM</div></B></td>
+		<td align="left"><div class="font"></td>
+	</tr>
+	<tr>
+		<td height="20" align="left"><div class="font"></td>
+		<td colspan=7 align="center" valign="middle"><B><div class="fontleave">201B FORM NO. 01</div></B></td>
+		<td align="left"><div class="font"></td>
+	</tr>
+	<tr>
+		<td height="13" align="left"><div class="font"></td>
+		<td colspan=7 align="center" valign="middle"><B><div class="font"></B></td>
+		<td align="left"><div class="font"></td>
+	</tr>
+	<tr>
+		<td class="topleft" height="20" align="left"><div class="font"></td>
+		<td class="topright" colspan=3 align="left" valign="middle"><B><div class="fontleave">Name of Employee:</div></B></td>
+		<td class="topleftright" colspan=2 align="left" valign="middle"><B><div class="fontleave">Designation</div></B></td>
+		<td class="topleft" colspan=2 align="left" valign="middle"><B><div class="fontleave">Date Prepared</div></B></td>
+		<td class="topright" align="left"><div class="font"></td>
+	</tr>
+	<tr>
+		<td class="botleft" height="20" align="left"><div class="font"></td>
+		<td class="botright" colspan=3 align="center" valign="middle"><B><id="nameleave">LAWRENCE JOSEPH LIBO-ON</div></B></td>
+		<td class="botleftright" colspan=2 align="center" valign="middle"><B><id="designation">BUS. DEV. MANAGER</div></B></td>
+		<td class="botleftright" colspan=3 align="center" valign="middle" SDVAL="41367" SDNUM="13321;0;MM/DD/YY"><B><Fid="date">04/03/13</div></B></td>
+		</tr>
+	<tr>
+		<td class="topleft" height="20" align="left"><div class="font"></td>
+		<td class="top" colspan=7 align="left" valign="middle"><B><div class="fontleave">Type of Leave</div></B></td>
+		<td class="topright" align="left"><div class="font"></td>
+	</tr>
+	<tr>
+		<td class="botleft" height="20" align="left" valign="middle"><div class="font"></td>
+		<td class="bot" ALIGN="RIGHT" valign="middle"><B><div id="absent"><input type="checkbox" name="absent" value="absent">Authorized Absent</div></b></td>
+		<td class="bot" colspan=2 align="left" valign="middle"><B><div id="serv"> <input type="checkbox" name="serv" value="serv">Serv. Incentive Leave</div></b></td>
+		<td class="bot" align="left" valign="middle"><B><div class="font"></B></td>
+		<td class="bot" align="left" valign="middle"><B><div id="sick"> <input type="checkbox" name="sick" value="sick">Sick Leave</div></b></td>
+		<td class="bot" align="left" valign="middle"><B><input type="checkbox" name="undertime" value="undertime">Undertime</div></b></td>
+		<td class="bot" align="left" valign="middle"><B><div class="fontleave"></div></B></td>
+		<td class="botright" align="left" valign="middle"><div class="font"></td>
+	</tr>
+	<tr>
+		<td class="topleft" height="20" align="left"><div class="font"></td>
+		<td class="top" colspan=7 align="left" valign="middle"><B><div class="fontleave">Cover Period</div></B></td>
+		<td class="topright" align="left"><div class="font"></td>
+	</tr>
+	<tr>
+		<td class="botleft" height="20" align="left" valign="middle"><div class="font"></td>
+		<td class="bot" align="left" valign="middle"> <div id="am"> <input type="checkbox" name="am" value="am">AM</div></b></td>
+		<td class="bot" align="left" valign="middle"><div id="pm"> <input type="checkbox" name="pm" value="pm">PM</div></b></td>
+		<td class="bot" align="left" valign="middle"><div id="whole"> <input type="checkbox" name="whole" value="undertime">Whole Day</div></b></td>
+		<td class="bot" align="left" valign="middle"><B><div id="days"> <input type="checkbox" name="days" value="days">Days</div></b></td>
+		<td class="bot" ALIGN="RIGHT" valign="middle" SDNUM="13321;0;MM/DD/YY"><B><div id="from">from 03/21/2013</div></b></td>
+		<td class="bot" align="left" valign="middle" SDVAL="41360" SDNUM="13321;0;MM/DD/YY"><B><div id="to"> to 03/21/13</div></b></td>
+		<td class="bot" align="left" valign="middle"><B><div class="font"></B></td>
+		<td class="botright" align="left" valign="middle"><div class="font"></td>
+	</tr>
+	<tr>
+		<td class="topleft" height="20" align="left"><div class="font"></td>
+		<td class="top" colspan=7 align="left" valign="middle"><B><div class="fontleave">Reason:</div></B></td>
+		<td class="topright" align="left"><div class="font"></td>
+	</tr>
+	<tr>
+		<td class="left" height="20" align="left"><div class="font"></td>
+		<td class="botright" colspan=8 ROWSPAN=2 align="center" valign="middle"><FONT COLOR="#0000FF">Death of Immediate Family Member (Mother)</div></td>
+		</tr>
+	<tr>
+		<td class="botleft" height="20" align="left"><div class="font"></td>
+		</tr>
+	<tr>
+		<td class="topleft" height="20" align="left"><div class="font"></td>
+		<td class="topright" colspan=2 align="left" valign="middle"><B><div class="fontleave">Status</div></B></td>
+		<td class="topleft" align="left"><B><div class="fontleave">Remaining Credits</div></B></td>
+		<td class="top" ALIGN="RIGHT"><B><div class="fontleave">VL:</div></B></td>
+		<td class="top" align="center"><div id="vl">4 days</div></td>
+		<td class="top" colspan=2 align="center" valign="middle"><div class="font"></td>
+		<td class="topright" align="left"><div class="font"></td>
+	</tr>
+	<tr>
+		<td class="left" height="20" align="left"><BR></td>
+		<td align="left" valign="middle"><B><div id="approved"> <input type="checkbox" name="approved" value="approved">Approved</div></b></td>
+		<td class="right" align="left" valign="middle"><B><div id="disapproved"> <input type="checkbox" name="disapproved" value="disapproved">Disapproved</div></b></td>
+		<td class="left" align="left"><B><div class="font"></B></td>
+		<td ALIGN="RIGHT"><B><div class="fontleave">SL:</div></B></td>
+		<td class="topbot" align="center"><div id="sl">3 days</div></td>
+		<td align="RIGHT"><b><font size="1">TOTAL:</font></b></td>
+		<td align="CENTER" class="bot"><b><font size="1">P50.00</font></b></td>
+		<td class="right" align="left"><BR></td>
+	</tr>
+
+	<tr>
+		<td class="botleft" height="10" align="left"><BR></td>
+		<td class="botright" colspan=2 align="center" valign="middle"><B><div class="font"></B></td>
+		<td class="botleft" colspan=5 align="center" valign="middle"><B><div class="font"></B></td>
+		<td class="botright" align="left"><div class="font"></td>
+	</tr>
+	<tr>
+		<td height="28" align="left"><div class="font"></td>
+		<td colspan=7 align="center" valign="middle"><div class="font"></td>
+		<td align="left"><div class="font"></td>
+	</tr>
+	<tr>
+		<td height="20" align="left"><div class="font"></td>
+		<td align="left"><div class="fontleave">Prepared by:</div></td>
+		<td class="bot" colspan=2 align="center" valign="middle"><div id="prep">LAWRENCE JOSEPH LIBO-ON</div></td>
+		<td align="left"><div class="font"></td>
+		<td align="left"><div class="fontleave">Checked by:</div></td>
+		<td class="bot" colspan=2 align="center" valign="middle"><div id="check">MA. REYNA MOYA</div></td>
+		<td align="left"><div class="font"></td>
+	</tr>
+	<tr>
+		<td height="28" align="left"><div class="font"></td>
+		<td colspan=7 align="center" valign="middle"><div class="font"></td>
+		<td align="left"><div class="font"></td>
+	</tr>
+	<tr>
+		<td height="20" align="left"><div class="font"></td>
+		<td align="left"><div class="fontleave">Approved by:</div></td>
+		<td class="bot" colspan=2 align="center" valign="middle"><div id="app">ROSALINDA TSANG</div></td>
+		<td align="left"><div class="font"></td>
+		<td align="left"><div class="font"></td>
+		<td align="left"><div class="font"></td>
+		<td align="left"><div class="font"></td>
+		<td align="left"><div class="font"></td>
+	</tr>
+</TABLE>
+<!-- ************************************************************************** -->
+</BODY>
+
+</HTML>
